@@ -1,0 +1,8 @@
+Program a script to run that uses regex to filter out each character's lines from a transcript. Determine their lines & words said.
+Finished lines
+
+Add sort and filter table, list by name, # lines said, # of words said, etc.
+Started
+
+Show data visualization using d3 data.
+Not started

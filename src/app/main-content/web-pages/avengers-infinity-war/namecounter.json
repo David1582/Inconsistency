@@ -1,57 +1,277 @@
 {
-  "Asgardian PA": 1,
-  "Ebony Maw": 19,
-  "Thanos": 76,
-  "Thor": 76,
-  "Loki": 7,
-  "Heimdall": 1,
-  "Proxima Midnight": 8,
-  "Doctor Strange": 53,
-  "Wong": 10,
-  "Bruce Banner": 49,
-  "Tony Stark": 127,
-  "Pepper Potts": 22,
-  "F.R.I.D.A.Y.": 2,
-  "Peter Parker": 46,
-  "Ned Leeds": 1,
-  "Your Bus Driver, Stan Lee": 1,
-  "Cull Obsidian": 2,
-  "Hulk": 2,
-  "F.R.I.D.A.Y": 3,
-  "Peter Quill": 85,
-  "Rocket": 48,
-  "Gamora": 46,
-  "Drax": 28,
-  "Mantis": 17,
-  "Groot": 7,
-  "Vision": 31,
-  "Wanda Maximoff": 32,
-  "Corvus Glaive": 3,
-  "Natasha Romanoff": 15,
-  "Sam Wilson": 9,
-  "Steve Rogers": 25,
-  "Gamora's Mother": 1,
-  "Child of Thanos": 1,
-  "Young Gamora": 4,
-  "Collector": 5,
-  "Secretary Ross": 8,
-  "James Rhodes": 17,
-  "Okoye": 11,
-  "T'Challa": 18,
-  "Bucky Barnes": 8,
-  "Memory Nebula": 2,
-  "Memory Gamora": 2,
-  "Eitri": 16,
-  "Nebula": 6,
-  "Strange": 4,
-  "Stonekeeper": 4,
-  "Red Skull": 6,
-  "Shuri": 6,
-  "Jabari Warriors": 1,
-  "M'Baku": 3,
-  "Dome Control": 1,
-  "Tony Stark and Drax": 1,
-  "Jabari": 1,
-  "Nick Fury": 8,
-  "Maria Hill": 6
+  "Asgardian PA": {
+    "number of lines": 1,
+    "number of words": 73,
+    "name": "Asgardian PA"
+  },
+  "Ebony Maw": {
+    "number of lines": 19,
+    "number of words": 346,
+    "name": "Ebony Maw"
+  },
+  "Thanos": {
+    "number of lines": 76,
+    "number of words": 1443,
+    "name": "Thanos"
+  },
+  "Thor": {
+    "number of lines": 76,
+    "number of words": 999,
+    "name": "Thor"
+  },
+  "Loki": {
+    "number of lines": 7,
+    "number of words": 140,
+    "name": "Loki"
+  },
+  "Heimdall": {
+    "number of lines": 1,
+    "number of words": 12,
+    "name": "Heimdall"
+  },
+  "Proxima Midnight": {
+    "number of lines": 8,
+    "number of words": 110,
+    "name": "Proxima Midnight"
+  },
+  "Doctor Strange": {
+    "number of lines": 53,
+    "number of words": 559,
+    "name": "Doctor Strange"
+  },
+  "Wong": {
+    "number of lines": 10,
+    "number of words": 119,
+    "name": "Wong"
+  },
+  "Bruce Banner": {
+    "number of lines": 49,
+    "number of words": 803,
+    "name": "Bruce Banner"
+  },
+  "Tony Stark": {
+    "number of lines": 127,
+    "number of words": 1638,
+    "name": "Tony Stark"
+  },
+  "Pepper Potts": {
+    "number of lines": 22,
+    "number of words": 129,
+    "name": "Pepper Potts"
+  },
+  "F.R.I.D.A.Y.": {
+    "number of lines": 2,
+    "number of words": 8,
+    "name": "F.R.I.D.A.Y."
+  },
+  "Peter Parker": {
+    "number of lines": 46,
+    "number of words": 601,
+    "name": "Peter Parker"
+  },
+  "Ned Leeds": {
+    "number of lines": 1,
+    "number of words": 15,
+    "name": "Ned Leeds"
+  },
+  "Your Bus Driver, Stan Lee": {
+    "number of lines": 1,
+    "number of words": 12,
+    "name": "Your Bus Driver, Stan Lee"
+  },
+  "Cull Obsidian": {
+    "number of lines": 2,
+    "number of words": 21,
+    "name": "Cull Obsidian"
+  },
+  "Hulk": {
+    "number of lines": 2,
+    "number of words": 22,
+    "name": "Hulk"
+  },
+  "F.R.I.D.A.Y": {
+    "number of lines": 3,
+    "number of words": 14,
+    "name": "F.R.I.D.A.Y"
+  },
+  "Peter Quill": {
+    "number of lines": 85,
+    "number of words": 1094,
+    "name": "Peter Quill"
+  },
+  "Rocket": {
+    "number of lines": 48,
+    "number of words": 667,
+    "name": "Rocket"
+  },
+  "Gamora": {
+    "number of lines": 46,
+    "number of words": 476,
+    "name": "Gamora"
+  },
+  "Drax": {
+    "number of lines": 28,
+    "number of words": 265,
+    "name": "Drax"
+  },
+  "Mantis": {
+    "number of lines": 17,
+    "number of words": 110,
+    "name": "Mantis"
+  },
+  "Groot": {
+    "number of lines": 7,
+    "number of words": 44,
+    "name": "Groot"
+  },
+  "Vision": {
+    "number of lines": 31,
+    "number of words": 485,
+    "name": "Vision"
+  },
+  "Wanda Maximoff": {
+    "number of lines": 32,
+    "number of words": 246,
+    "name": "Wanda Maximoff"
+  },
+  "Corvus Glaive": {
+    "number of lines": 3,
+    "number of words": 50,
+    "name": "Corvus Glaive"
+  },
+  "Natasha Romanoff": {
+    "number of lines": 15,
+    "number of words": 113,
+    "name": "Natasha Romanoff"
+  },
+  "Sam Wilson": {
+    "number of lines": 9,
+    "number of words": 107,
+    "name": "Sam Wilson"
+  },
+  "Steve Rogers": {
+    "number of lines": 25,
+    "number of words": 241,
+    "name": "Steve Rogers"
+  },
+  "Gamora's Mother": {
+    "number of lines": 1,
+    "number of words": 10,
+    "name": "Gamora's Mother"
+  },
+  "Child of Thanos": {
+    "number of lines": 1,
+    "number of words": 2,
+    "name": "Child of Thanos"
+  },
+  "Young Gamora": {
+    "number of lines": 4,
+    "number of words": 37,
+    "name": "Young Gamora"
+  },
+  "Collector": {
+    "number of lines": 5,
+    "number of words": 26,
+    "name": "Collector"
+  },
+  "Secretary Ross": {
+    "number of lines": 8,
+    "number of words": 61,
+    "name": "Secretary Ross"
+  },
+  "James Rhodes": {
+    "number of lines": 17,
+    "number of words": 226,
+    "name": "James Rhodes"
+  },
+  "Okoye": {
+    "number of lines": 11,
+    "number of words": 135,
+    "name": "Okoye"
+  },
+  "T'Challa": {
+    "number of lines": 18,
+    "number of words": 291,
+    "name": "T'Challa"
+  },
+  "Bucky Barnes": {
+    "number of lines": 8,
+    "number of words": 63,
+    "name": "Bucky Barnes"
+  },
+  "Memory Nebula": {
+    "number of lines": 2,
+    "number of words": 21,
+    "name": "Memory Nebula"
+  },
+  "Memory Gamora": {
+    "number of lines": 2,
+    "number of words": 27,
+    "name": "Memory Gamora"
+  },
+  "Eitri": {
+    "number of lines": 16,
+    "number of words": 205,
+    "name": "Eitri"
+  },
+  "Nebula": {
+    "number of lines": 6,
+    "number of words": 61,
+    "name": "Nebula"
+  },
+  "Strange": {
+    "number of lines": 4,
+    "number of words": 67,
+    "name": "Strange"
+  },
+  "Stonekeeper": {
+    "number of lines": 4,
+    "number of words": 67,
+    "name": "Stonekeeper"
+  },
+  "Red Skull": {
+    "number of lines": 6,
+    "number of words": 96,
+    "name": "Red Skull"
+  },
+  "Shuri": {
+    "number of lines": 6,
+    "number of words": 90,
+    "name": "Shuri"
+  },
+  "Jabari Warriors": {
+    "number of lines": 1,
+    "number of words": 33,
+    "name": "Jabari Warriors"
+  },
+  "M'Baku": {
+    "number of lines": 3,
+    "number of words": 16,
+    "name": "M'Baku"
+  },
+  "Dome Control": {
+    "number of lines": 1,
+    "number of words": 9,
+    "name": "Dome Control"
+  },
+  "Tony Stark and Drax": {
+    "number of lines": 1,
+    "number of words": 1,
+    "name": "Tony Stark and Drax"
+  },
+  "Jabari": {
+    "number of lines": 1,
+    "number of words": 2,
+    "name": "Jabari"
+  },
+  "Nick Fury": {
+    "number of lines": 8,
+    "number of words": 30,
+    "name": "Nick Fury"
+  },
+  "Maria Hill": {
+    "number of lines": 6,
+    "number of words": 51,
+    "name": "Maria Hill"
+  }
 }

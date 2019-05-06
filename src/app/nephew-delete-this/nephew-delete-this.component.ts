@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import pingus from './namecounter.json';
-import { empty } from 'rxjs';
 
 export interface PeriodicElement {
   name: string;
@@ -22,30 +20,20 @@ const ELEMENT_DATA: PeriodicElement[] = [
   {position: 10, name: 'Neon', weight: 20.1797, symbol: 'Ne'},
 ];
 
+
+
 @Component({
-  selector: 'app-avengers-infinity-war',
-  templateUrl: './avengers-infinity-war.component.html',
-  styleUrls: ['./avengers-infinity-war.component.css']
+  selector: 'app-nephew-delete-this',
+  templateUrl: './nephew-delete-this.component.html',
+  styleUrls: ['./nephew-delete-this.component.css']
 })
-export class AvengersInfinityWarComponent implements OnInit {
-  
-  foo() {
-    Object.values(pingus);
-  }
-  
-  
+export class NephewDeleteThisComponent implements OnInit {
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
-  dataSource = Object.values(pingus);
+  dataSource = ELEMENT_DATA;
 
   constructor() { }
 
   ngOnInit() {
   }
-
-  whatIsMyPurpose() {
-    console.log(pingus);
-  }
-
-
 
 }

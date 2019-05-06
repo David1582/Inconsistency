@@ -3,11 +3,74 @@
     <h1 align="center">Avengers: Infinity War (2018)</h1>
   </div>
 <br>
-<p>The 3rd installment of the Avengers serious, in my completely and obviously unbiased opinion, the greatest of the series.</p><br>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col">
+      <p>The 3rd installment of the Avengers serious, in my completely and obviously unbiased opinion, the greatest of the series. There's a strong distinction between the inconsistencies that exist for cinematic reasons and those that exist within the plot itself. A prime example of a cinematic reason is how the strength of superheroes can sometimes vary without reason. In one scene Captain America's punches are blocked by average humans and in another you see him hold back Thanos's fist. Plot inconsistencies can be oddities that never get resolved and are often overlooked by both the writers and the audience. An example of this can be something like the classical movie Cinderella. The Godmother warns her that everything reverts to their original status before the magical transformations like the carriage and animals but the single sole slipper conveniently kept it's form for the Prince to find her. Of course you can always explain them away and say that the Godmother knew all along and purposely prevented the slippers from transforming back. And that's a fair call to make, however, because the explanation is never given or shown we are forced to come up with the explanation these inconsistencies ourselves. Listed directly below are the most crucial inconsistencies for the movie so sit back, relax and grab your tinfoil hats.</p><br>
+
+    </div>
+    <div class="col-md-auto">
+      Variable width content 2/2
+    </div>
+  </div>
+</div>
+
 <br>
+
+<!-- List of inconsistencies -->
+<div>
+  <ol>
+    <li>Show</li>
+    <li>Me</li>
+    <li>Potato</li>
+    <li>Salad</li>
+  </ol>
+</div>
+
+<div>
+  <h3>Show</h3>
+  <p></p>
+</div>
+
+<button (click)="foo()">test</button>
+
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+  <!--- Note that these columns can be defined in any order.
+        The actual rendered columns are set as a property on the row definition" -->
+
+  <!-- Position Column -->
+  <ng-container matColumnDef="position">
+    <th mat-header-cell *matHeaderCellDef> Name </th>
+    <td mat-cell *matCellDef="let element"> {{element['name']}} </td>
+  </ng-container>
+
+  <!-- Name Column -->
+  <ng-container matColumnDef="name">
+    <th mat-header-cell *matHeaderCellDef> Lines </th>
+    <td mat-cell *matCellDef="let element"> {{element['number of lines']}} </td>
+  </ng-container>
+
+  <!-- Weight Column -->
+  <ng-container matColumnDef="weight">
+    <th mat-header-cell *matHeaderCellDef> Words Spoken </th>
+    <td mat-cell *matCellDef="let element"> {{element['number of words']}} </td>
+  </ng-container>
+
+  <!-- Symbol Column -->
+  <ng-container matColumnDef="symbol">
+    <th mat-header-cell *matHeaderCellDef> Symbol </th>
+    <td mat-cell *matCellDef="let element"> {{element.symbol}} </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+
 <p>Write a python script to read all the chracters that talk during the movie and list how many lines each character was given. Remember to specify if they were theatrical release.</p>
 
-<button class="btn btn-primary" (click)="peanut()">Pingus</button>
+<button class="btn btn-primary" (click)="whatIsMyPurpose()">Pingus</button>
 <p>
   Credits:<br>
   <a href="https://transcripts.fandom.com/wiki/Avengers:_Infinity_War">Infinity War Transcripts</a>
