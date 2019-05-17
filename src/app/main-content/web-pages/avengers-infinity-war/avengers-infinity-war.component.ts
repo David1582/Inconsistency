@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import pingus from './namecounter.json';
 import { empty } from 'rxjs';
+import { HttpClient } from '@angular/common/http'
 
 export interface PeriodicElement {
   name: string;
@@ -32,14 +33,17 @@ export class AvengersInfinityWarComponent implements OnInit {
   foo() {
     Object.values(pingus);
   }
+
+  pageData = new PageData();
   
   
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
   dataSource = Object.values(pingus);
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
 
   ngOnInit() {
+    this.http.get<PageData>(`http://localhost:5000/page/${this.pageID}`).subscribe(pageData => this.pageData = pageData)
   }
 
   whatIsMyPurpose() {
@@ -48,4 +52,9 @@ export class AvengersInfinityWarComponent implements OnInit {
 
 
 
+}
+
+class PageData {
+  header = '';
+  body = '';
 }
