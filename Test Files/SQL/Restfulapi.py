@@ -29,9 +29,8 @@ class Multi(Resource):
 
 class Page(Resource):
     def get(self, objectID):
-        mydoc = [x for x in db['Content'].find({"_id" : ObjectId(objectID)})]
-
-        return Response(json.dumps(mydoc, default=json_util.default), mimetype='application/json')
+        mydoc = db['Content'].find({"_id" : ObjectId(objectID)}, { "Header": 1, "Body": 1, "_id": 0})[0]
+        return Response(json.dumps(mydoc, default=json_util.default), mimetype='application/json', headers={"Access-Control-Allow-Origin" : "*"})
         
 
 # api.add_resource(HelloWorld, '/')

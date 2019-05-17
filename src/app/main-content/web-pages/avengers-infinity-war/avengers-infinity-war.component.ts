@@ -35,6 +35,7 @@ export class AvengersInfinityWarComponent implements OnInit {
   }
 
   pageData = new PageData();
+  pageID = '5cd508e1fcab5901f4cdab19'
   
   
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
@@ -43,7 +44,7 @@ export class AvengersInfinityWarComponent implements OnInit {
   constructor(private http: HttpClient) { }
 
   ngOnInit() {
-    this.http.get<PageData>(`http://localhost:5000/page/${this.pageID}`).subscribe(pageData => this.pageData = pageData)
+    this.http.get<PageData>(`http://localhost:5001/page/${this.pageID}`).subscribe(pageData => this.pageData = pageData)
   }
 
   whatIsMyPurpose() {
@@ -55,6 +56,6 @@ export class AvengersInfinityWarComponent implements OnInit {
 }
 
 class PageData {
-  header = '';
-  body = '';
+  Header = '';
+  Body = '';
 }
